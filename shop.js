@@ -110,7 +110,10 @@ function render() {
   const note = $("#buy-note");
   const link = SHOP.links[key] || SHOP.checkoutUrl;
   if (link) {
-    buy.href = link;
+    // Stripe shows client_reference_id on each payment, so you can see
+    // which color / size / style the customer picked (e.g. "grey_6-18M_split").
+    const ref = `${state.color.id}_${state.size.id}_${state.style.id}`;
+    buy.href = link + (link.includes("?") ? "&" : "?") + "client_reference_id=" + encodeURIComponent(ref);
     buy.textContent = `Buy now — $${SHOP.price}`;
     buy.target = "_blank";
     note.textContent = `Selected: ${summary}. Secure checkout by Stripe.`;
