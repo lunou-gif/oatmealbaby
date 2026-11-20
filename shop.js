@@ -8,7 +8,7 @@ const SHOP = {
   // One link for everything is fine: Stripe can collect size/color
   // through a "custom field" on the payment link.
   // Or give each combination its own link in `links` below.
-  checkoutUrl: "",
+  checkoutUrl: "https://buy.stripe.com/fZueVe4NrfIAe1N8Hp53O00",
   links: {
     // "grey|6-18M|split": "https://buy.stripe.com/xxxx",
   },
