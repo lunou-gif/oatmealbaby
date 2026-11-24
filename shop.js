@@ -20,13 +20,13 @@ const SHOP = {
 
   colors: [
     { id: "grey",   name: "Grey Mix",       hex: "#B9B8B6", img: "images/grey-long.jpg",
-      more: ["images/grey-short.jpg", "images/details-grey.jpg"] },
-    { id: "almond", name: "Heather Almond", hex: "#E7DCC8", img: "images/almond-short.jpg",
-      more: ["images/almond-bag.jpg", "images/liner.jpg", "images/details-almond.jpg"] },
+      more: ["images/grey-short.jpg", "images/grey-back.jpg", "images/grey-gown.jpg", "images/grey-liner.jpg", "images/m-hero.jpg"] },
+    { id: "almond", name: "Heather Almond", hex: "#E7DCC8", img: "images/almond-split.jpg",
+      more: ["images/almond-back.jpg", "images/almond-bag.jpg", "images/almond-liner.jpg", "images/m-cream-stand.jpg"] },
     { id: "forest", name: "Heather Forest", hex: "#3F4A35", img: "images/forest-long.jpg",
-      more: ["images/forest-short.jpg", "images/forest-sleeveless.jpg"] },
+      more: ["images/forest-short.jpg", "images/forest-sleeveless.jpg", "images/forest-back.jpg"] },
     { id: "lake",   name: "Heather Lake",   hex: "#2F3B5C", img: "images/lake-long.jpg",
-      more: ["images/lake-short.jpg"] },
+      more: ["images/lake-short.jpg", "images/lake-sleeveless.jpg", "images/lake-back.jpg"] },
   ],
   sizes: [
     { id: "6-18M",  name: "6–18 months" },
